@@ -14,7 +14,6 @@ def bind(generated_tones, alphabet):
         char = alphabet[i]
 
         bind = Bind(tone, char)
-        config.debug_print(f'Binds {tone.frequency} to {char}')
         binds.append(bind)
 
     return binds
